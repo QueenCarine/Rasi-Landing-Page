@@ -262,4 +262,252 @@ body{
  .headOffice{
    margin-top: 70px;
  }
- 
+ @media screen and (min-width: 600px)and (max-width: 1024px){
+    nav ul{
+        gap: 20px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav i{
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    header{
+        height: 50vh;
+    }
+    header{
+        height: 66vh;
+
+    }
+    .introduction h1{
+        font-size: 30px;
+        padding-top: 100px;
+        flex-wrap: wrap;
+
+    }
+    .introduction p{
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .introduction button{
+        margin-left: 200px;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .screenPrinting p{
+        font-size: 15px;
+    }
+    .screenPrinting hr{
+        width: 100%;
+        height: 1px;
+        margin-top: 50px;
+    }
+    .rasiScreenPrinting{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .printingTechniques{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .ourValues{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .ourTestimonies{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .highQualityPrinting{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .companyLogos{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .collections{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .clothCollection{
+        width: 100%;
+    }
+    .clothCollections{
+        width: 100%;
+        height: 500px;
+    }
+    .contactUs{
+        width: 80%;
+        margin-left: 50px;
+        height: 500px;
+    }
+    .footerContent{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width: 320px)and (max-width: 480px){
+    nav ul{
+        gap: 20px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav i{
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    header{
+        height: 50vh;
+    }
+    header{
+        height: 66vh;
+
+    }
+    .introduction h1{
+        font-size: 30px;
+        padding-top: 100px;
+        flex-wrap: wrap;
+
+    }
+    .introduction p{
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .introduction button{
+        margin-left: 200px;
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .screenPrinting p{
+        font-size: 15px;
+    }
+    .screenPrinting hr{
+        width: 100%;
+        height: 1px;
+        margin-top: 50px;
+    }
+    .rasiScreenPrinting{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .printingTechniques{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .ourValues{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .ourTestimonies{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .highQualityPrinting{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .companyLogos{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .collections{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .clothCollection{
+        width: 100%;
+    }
+    .clothCollections{
+        width: 100%;
+        height: 500px;
+    }
+    .contactUs{
+        width: 80%;
+        margin-left: 50px;
+        height: 500px;
+    }
+    .footerContent{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width: 1280px)and (max-width: 1920px){
+    nav ul{
+        gap: 20px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav i{
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    .introduction h1{
+        font-size: 30px;
+        padding-top: 100px;
+        flex-wrap: wrap;
+
+    }
+    .introduction p{
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .screenPrinting p{
+        font-size: 15px;
+    }
+    .screenPrinting hr{
+        width: 100%;
+        height: 1px;
+        margin-top: 50px;
+    }
+    .rasiScreenPrinting{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .printingTechniques{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .ourTestimonies{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .highQualityPrinting{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .companyLogos{
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 50px;
+    }
+}
