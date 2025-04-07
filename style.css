@@ -1,0 +1,265 @@
+nav{
+    display: flex;
+    color: white;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:100px;
+    margin:0 auto;
+    margin-top: 45px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav i{
+    margin-top: 45px;
+    margin-right:150px;
+    font-size: 40px;
+}
+header{
+    background-image: url('./images/couch.jpg');
+    background-size: cover;
+    height: 80vh;
+    font-size: 30px;
+}
+body{
+    overflow-x: hidden;
+    font-size: 20px;
+    font-family:  roboto;
+}
+.introduction h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
+.introduction p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.introduction button{
+    background-color: rgb(194, 184, 184);
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 800px;
+}
+.screenPrinting{
+  width: 100%;
+  margin-top: 50px;
+
+}
+.screenPrinting p{
+    color: black;
+    font-size: 20px;
+    padding:10px;
+    
+  }
+  .screenPrinting hr{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border: none;
+  }
+  .rasiScreenPrinting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+  }
+ .timelessArt{
+    color: green;
+ }
+ .knowMoreButton{
+    background-color: rgb(194, 184, 184);
+    color: green;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+
+
+ }
+ .contactUsButton{
+    background-color: white;
+    color:black;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: 1px solid;
+    border-radius: 25px;
+    cursor: pointer;
+
+ }
+ .ourValues{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 15px;
+    margin-top: 50px;
+    background-color: rgb(207, 235, 245);
+    padding: 20px;
+ }
+ .ourValues h1{
+    font-size: 25px;
+ }
+ .ourValues p{
+    margin-top: 40px;
+ }
+ .valueDescription{
+    display: flex;
+ }
+ .rasiTechniques{
+    text-align: center;
+    margin-top: 100px;
+ }
+ .printingTechniques{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+ }
+ .testimonials{
+    text-align: center;
+    margin-top: 100px;
+ }
+ .ourTestimonies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-size: 15px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+ }
+ .ourStarRanking{
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+ }
+ .highQualityPrinting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+    margin-top: 100px;
+ }
+ .showcasing{
+    text-align: center;
+    margin-top: 100px;
+ }
+ .companyLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+ }
+ #arvindLogo{
+    width: 10%;
+ }
+ #gapLogo{
+    width: 5%;
+ }
+ #myntraLogo{
+     width: 10%;
+ }
+ #pumaLogo{
+     width: 10%;
+ }
+ #markalarLogo{
+     width: 10%;
+ }
+ .collections{
+    display: flex;
+ }
+ .clothCollection{
+    width: 600px;
+ }
+ .clothCollections{
+    width: 600px;
+    height:740px;
+ }
+ .womenCollections img{
+    width: 100%;
+    height: 45%;
+    margin-top: 10px;
+ }
+ .reachOut{
+    text-align: center;
+    margin-top: 100px;
+ }
+ .googleMaps{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://the-founders.co.il/wp-content/uploads/2021/10/contact-bg-map-mobile.webp');
+    height: 800px;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+ }
+ .contactUs{
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    width: 30%;
+    color: rgb(54, 52, 52);
+    margin-top: 100px;
+    background-color: white;
+    position: absolute;
+    margin-left: 300px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 200px;
+ }
+ #contactDetails{
+    color: black;
+ }
+ .contactUs i{
+    font-size: 30px;
+    margin-left: 10px;
+
+ }
+ footer{
+    background-color: rgb(54, 51, 51);
+    color: white;
+ }
+ .footerContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+    padding: 20px;
+ }
+ .footerContent ul li{
+    list-style: none;
+    text-decoration: none;
+ }
+ .phoneNumbers ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+ .email ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+ }
+ .headOffice{
+   margin-top: 70px;
+ }
+ 
